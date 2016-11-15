@@ -10,16 +10,13 @@ class Section extends React.Component {
     super(props);
   }
 
-  handleScroll(event) {
-    let scrollTop = event.srcElement('scroll', this.handleScroll);
-    console.log(scrollTop);
-  }
+
 
   render() {
 
 
     return (
-      <div>
+      <div className="scroll">
         <h2>{this.props.title}</h2>
         <a href={this.props.link}>
           <img style={{width: 100 + "px"}} src={this.props.photo} alt="picture of project" />

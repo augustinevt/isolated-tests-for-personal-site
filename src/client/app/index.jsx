@@ -10,8 +10,18 @@ const ddata = { foo: 'foo'};
 class App extends React.Component {
 
   handleScroll(event) {
-    let scrollTop = event.srcElement('scroll', this.handleScroll);
-    console.log(scrollTop);
+    const scrollables = document.getElementsByClassName('scroll');
+
+    [].forEach.call(scrollables, function(el){
+      let offset = el.getBoundingClientRect();
+      el.style.opacity = offset.top / 1999;
+      console.log(offset.top);
+
+    });
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
   }
 
 
@@ -21,6 +31,15 @@ class App extends React.Component {
       <div>
         <p> Hello React! </p>
 
+        <Section onScroll={this.handlScroll} { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
+        <Section { ...data[0] }/>
         <Section { ...data[0] }/>
 
       </div>
