@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Section from './section.jsx';
+import Skill from './skill.jsx';
 
 import Data from './data.js';
 import data from './data.json';
@@ -15,8 +16,6 @@ class App extends React.Component {
     [].forEach.call(scrollables, function(el){
       let offset = el.getBoundingClientRect();
       el.style.opacity = offset.top / 1999;
-      console.log(offset.top);
-
     });
   }
 
@@ -31,16 +30,65 @@ class App extends React.Component {
       <div>
         <p> Hello React! </p>
 
-        <Section onScroll={this.handlScroll} { ...data[0] }/>
         <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
-        <Section { ...data[0] }/>
+
+
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
 
       </div>
    )

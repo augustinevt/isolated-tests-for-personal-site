@@ -46,8 +46,6 @@
 
 	'use strict';
 
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 	var _react = __webpack_require__(1);
@@ -60,11 +58,15 @@
 
 	var _section2 = _interopRequireDefault(_section);
 
-	var _data = __webpack_require__(173);
+	var _skill = __webpack_require__(173);
+
+	var _skill2 = _interopRequireDefault(_skill);
+
+	var _data = __webpack_require__(174);
 
 	var _data2 = _interopRequireDefault(_data);
 
-	var _data3 = __webpack_require__(174);
+	var _data3 = __webpack_require__(175);
 
 	var _data4 = _interopRequireDefault(_data3);
 
@@ -95,7 +97,6 @@
 	      [].forEach.call(scrollables, function (el) {
 	        var offset = el.getBoundingClientRect();
 	        el.style.opacity = offset.top / 1999;
-	        console.log(offset.top);
 	      });
 	    }
 	  }, {
@@ -115,16 +116,63 @@
 	          null,
 	          ' Hello React! '
 	        ),
-	        _react2.default.createElement(_section2.default, _extends({ onScroll: this.handlScroll }, _data4.default[0])),
 	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_section2.default, _data4.default[0])
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null),
+	        _react2.default.createElement(_skill2.default, null)
 	      );
 	    }
 	  }]);
@@ -21565,6 +21613,79 @@
 
 /***/ },
 /* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Skill = function (_React$Component) {
+	  _inherits(Skill, _React$Component);
+
+	  function Skill(props) {
+	    _classCallCheck(this, Skill);
+
+	    return _possibleConstructorReturn(this, (Skill.__proto__ || Object.getPrototypeOf(Skill)).call(this, props));
+	  }
+
+	  _createClass(Skill, [{
+	    key: 'handleScroll',
+	    value: function handleScroll() {
+	      var el = document.getElementsByClassName('skill')[0];
+	      var offset = el.getBoundingClientRect().top;
+	      var increment = Math.floor(offset % 10);
+	      var somethingElse = Math.floor(Math.floor(offset / 10));
+	      console.log("inc", increment);
+	      console.log("SE", somethingElse);
+	      if (increment === 0) {
+	        var array = [];
+	        var foo = 'foo';
+	        for (var i = 0; i < somethingElse; i++) {
+	          //console.log(string.concat(foo));
+	          array.push('foo');
+	        }
+	        console.log(array.join(' '));
+	      }
+	    }
+	  }, {
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      window.addEventListener('scroll', this.handleScroll);
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'skill' },
+	        ' This is skill '
+	      );
+	    }
+	  }]);
+
+	  return Skill;
+	}(_react2.default.Component);
+
+	exports.default = Skill;
+
+/***/ },
+/* 174 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -21586,7 +21707,7 @@
 	exports.default = foo;
 
 /***/ },
-/* 174 */
+/* 175 */
 /***/ function(module, exports) {
 
 	"use strict";
