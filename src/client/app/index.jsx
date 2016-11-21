@@ -2,11 +2,12 @@ import React from 'react';
 import {render} from 'react-dom';
 import Section from './section.jsx';
 import Skill from './skill.jsx';
+import DynaComp from './dyna-comp.jsx';
 
-import Data from './data.js';
-import data from './data.json';
 
-const ddata = { foo: 'foo'};
+import dataOne from './dataOne.json';
+import dataTwo from './dataTwo.json';
+
 
 class App extends React.Component {
 
@@ -25,70 +26,10 @@ class App extends React.Component {
 
 
   render() {
-    console.log(data);
     return(
       <div>
-        <p> Hello React! </p>
 
-        <Section { ...data[0] }/>
-
-
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <DynaComp/>
 
       </div>
    )

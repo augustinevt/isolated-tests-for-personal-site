@@ -62,13 +62,17 @@
 
 	var _skill2 = _interopRequireDefault(_skill);
 
-	var _data = __webpack_require__(174);
+	var _dynaComp = __webpack_require__(174);
 
-	var _data2 = _interopRequireDefault(_data);
+	var _dynaComp2 = _interopRequireDefault(_dynaComp);
 
-	var _data3 = __webpack_require__(175);
+	var _dataOne = __webpack_require__(175);
 
-	var _data4 = _interopRequireDefault(_data3);
+	var _dataOne2 = _interopRequireDefault(_dataOne);
+
+	var _dataTwo = __webpack_require__(176);
+
+	var _dataTwo2 = _interopRequireDefault(_dataTwo);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -77,8 +81,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var ddata = { foo: 'foo' };
 
 	var App = function (_React$Component) {
 	  _inherits(App, _React$Component);
@@ -107,72 +109,10 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      console.log(_data4.default);
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(
-	          'p',
-	          null,
-	          ' Hello React! '
-	        ),
-	        _react2.default.createElement(_section2.default, _data4.default[0]),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null),
-	        _react2.default.createElement(_skill2.default, null)
+	        _react2.default.createElement(_dynaComp2.default, null)
 	      );
 	    }
 	  }]);
@@ -21686,25 +21626,94 @@
 
 /***/ },
 /* 174 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var foo = {
 
-	  title: "My First Project",
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	  mainText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	var _react = __webpack_require__(1);
 
-	  photo: "CRY.png",
+	var _react2 = _interopRequireDefault(_react);
 
-	  link: "http://augustvontrapp.io/"
-	};
+	var _dataTwo = __webpack_require__(176);
 
-	exports.default = foo;
+	var _dataTwo2 = _interopRequireDefault(_dataTwo);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var DynaComp = function (_React$Component) {
+	  _inherits(DynaComp, _React$Component);
+
+	  function DynaComp(props) {
+	    _classCallCheck(this, DynaComp);
+
+	    return _possibleConstructorReturn(this, (DynaComp.__proto__ || Object.getPrototypeOf(DynaComp)).call(this, props));
+	  }
+
+	  _createClass(DynaComp, [{
+	    key: 'getContent',
+	    value: function getContent() {
+
+	      console.log(_dataTwo2.default[0].projects);
+
+	      var projects = _dataTwo2.default[0].projects;
+
+	      var newArr = projects.map(function (project) {
+	        return _react2.default.createElement(
+	          'div',
+	          { key: project.title },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            project.title
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            null,
+	            project.summary
+	          ),
+	          _react2.default.createElement('img', { src: project.img, alt: 'picture' })
+	        );
+	      });
+
+	      console.log(newArr);
+
+	      return newArr;
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var jsx = this.getContent();
+
+	      console.log(jsx);
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          'food'
+	        ),
+	        jsx
+	      );
+	    }
+	  }]);
+
+	  return DynaComp;
+	}(_react2.default.Component);
+
+	exports.default = DynaComp;
 
 /***/ },
 /* 175 */
@@ -21718,6 +21727,28 @@
 		"photo": "CRY.png",
 		"codeSample": "moo.png",
 		"link": "http://augustvontrapp.io/"
+	}];
+
+/***/ },
+/* 176 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	module.exports = [{
+		"projects": [{
+			"title": "Reflect Website",
+			"summary": "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+			"img": "projectOneCode.png"
+		}, {
+			"title": "Reflect App",
+			"summary": "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+			"img": "projectOneCode.png"
+		}, {
+			"title": "Reflect Api",
+			"summary": "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+			"img": "projectOneCode.png"
+		}]
 	}];
 
 /***/ }

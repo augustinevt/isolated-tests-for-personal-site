@@ -1,0 +1,19 @@
+[{
+  "projects" : [
+    {
+      "title" : "Reflect Website",
+      "summary" : "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+      "img" : "projectOneCode.png"
+    },
+    {
+      "title" : "Reflect App",
+      "summary" : "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+      "img" : "projectOneCode.png"
+    },
+    {
+      "title" : "Reflect Api",
+      "summary" : "Here's my example, I want to prefix a element with an arbitrary number of span tags based on it's hierarchical level. So at level 3, I want 3 span tags before the text element.",
+      "img" : "projectOneCode.png"
+    }
+  ]
+}]
